@@ -1,0 +1,138 @@
+html {
+    background-color: #C5BEB9;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: SuperBrush;
+}
+
+header img {
+    height: 10em;
+    width: auto;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: TangoSans;
+}
+
+.home>p {
+    font-size: larger;
+    font-family: SuperBrush;
+}
+
+.winkel {
+    font-family: TangoSans;
+    padding-bottom: 2em;
+}
+
+.winkel div {
+    display: flex;
+}
+
+.winkel img {
+    height: 3em;
+    width: auto;
+}
+
+.lokatie img {
+    height: 16em;
+    width: auto;
+}
+
+.lokatie p {
+    padding-left: 0.8em;
+}
+
+.aanpak {
+    padding-bottom: 3em;
+    font-family: TangoSans;
+}
+
+.aanpak article {
+    display: flex;
+    flex-direction: column;
+}
+
+.aanpak h2 {
+    font-family: SuperBrush;
+}
+
+.aanpak div {
+    display: flex;
+}
+
+.aanpak img {
+    height: 10em;
+    width: auto;
+}
+
+.aanpak div p {
+    padding-left: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #D9A648;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    z-index: 1000;
+    border-top: 0.1em solid #232C36;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0%;
+    margin: 0%;
+}
+
+nav li {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    border-left: 0.1em solid #232C36;
+    border-right: 0.1em solid #232C36;
+}
+
+nav a {
+    text-decoration: none;
+    color: #232C36;
+    display: block;
+    padding: 0.5em;
+    font-family: SuperBrush;
+}
+
+nav a.current {
+    border: 0.3em solid white;
+    border-radius: 1em;
+    padding: 0.3em;
+}
+
+@font-face {
+    font-family: SuperBrush;
+    src: url('fonts/Super Brush.otf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TangoSans;
+    src: url('fonts/TangoSans.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
